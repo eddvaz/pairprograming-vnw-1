@@ -13,7 +13,7 @@ export const h2Recipes = styled.h2`
   }
 
   &::before {
-    border: solid;
+    border: solid #373737;
     border-top: solid -10px;
     transform: translateX(-50%);
     position: absolute;
@@ -48,10 +48,9 @@ export const textFoodbolo = styled.h3`
   }
 
   &::before {
-    border: solid;
+    border: solid #373737;
     transform: translateX(-50%);
     position: absolute;
-    top: 50px;
 
     content: "";
     top: 224%;
@@ -68,11 +67,9 @@ export const textFoodpizza = styled.h3`
   }
 
   &::before {
-    border: solid;
-    border-top: solid -10px;
+    border: solid #373737;
     transform: translateX(-50%);
     position: absolute;
-    top: 50px;
 
     content: "";
     top: 224%;
@@ -82,17 +79,16 @@ export const textFoodpizza = styled.h3`
     width: 4vw;
   }
 `;
+
 export const textFoodpeanut = styled.h3`
   & {
     margin-top: 200px;
   }
 
   &::before {
-    border: solid;
-    border-top: solid -10px;
+    border: solid #373737;
     transform: translateX(-50%);
     position: absolute;
-    top: 50px;
 
     content: "";
     top: 224%;
@@ -107,6 +103,20 @@ export const imgMain = styled.img`
   display: flex;
   width: 27.91vw;
   height: 41.51vh;
+`;
+
+export const conatinerAbout = styled.div`
+  display: flex;
+  text-align: center;
+`;
+
+export const imgAbout = styled.img`
+  width: 750px;
+  height: 600px;
+`;
+
+export const AboutP = styled.p`
+  padding: 40px;
 `;
 
 export const containersubcribe = styled.div`
@@ -132,8 +142,4 @@ export const subscribebutton = styled.button`
   font-size: 24px;
   letter-spacing: 6.14px;
   margin-top: 40px;
-`;
-
-export const conatinerAbout = styled.div`
-  display: flex;
 `;
