@@ -49,7 +49,6 @@ export const textFoodbolo = styled.h3`
 
   &::before {
     border: solid;
-    border-top: solid -10px;
     transform: translateX(-50%);
     position: absolute;
     top: 50px;
